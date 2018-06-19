@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+*:focus {outline: none;}
+
+html,
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(img/clearbg.png);
+    height: 100vh;
+}
+
+label {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+   
+
+h1 {
+    margin-top: 0;
+    padding-bottom: 50px;
+    color: #fff;
+    font-size: 540%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: pacifico;
+}
+
+div {
+    color: #fff;
+}
+
+input {
+    height: 30px;
+    width: 10%;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding-top: 3px;
+    font-family: inherit;
+    text-align: center;
+}
+
+ion-icon .small {
+    font-size: 10px;
+}
+
+.thermo {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.humid {
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.weather-box {
+  position: absolute;
+  width: 100vw;
+  z-index: 15;
+  top: 30%;
+  left: 10%;
+  margin: -100px 0 0 -150px;
+}
+
+.info-box {
+    margin: 50px auto 0px auto;
+    position: relative;
+    height: 300px;
+    width: 10%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+    font-weight: 500;
+    font-size: 100%;
+    font-family: pacifico;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #fff;
+    color: #0b6ffb;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #fff;
+    border: 1px solid #0b6ffb;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.temp {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    font-family: pacifico;
+}
+
+.humidity {
+    font-family: pacifico;
+    margin-right: 15px;
+    margin-top: 5px
+}
+/*
+.rain {
+    text-align: left;
+    margin-top: 30px;
+}
+*/
+.main-icon {
+    margin-top: 10px;
+    font-size: 100px;
+}
+
+
+
